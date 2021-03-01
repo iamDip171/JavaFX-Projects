@@ -12,7 +12,7 @@
    <children>
       <Label fx:id="screen1" alignment="CENTER_RIGHT" prefHeight="86.0" prefWidth="408.0" style="-fx-background-color: #515B4A;" textAlignment="JUSTIFY" textFill="#eae0ff">
          <font>
-            <Font name="Berlin Sans FB" size="60.0" />
+            <Font name="Berlin Sans FB" size="30.0" />
          </font>
       </Label>
       <Label fx:id="screen2" alignment="CENTER_RIGHT" prefHeight="86.0" prefWidth="408.0" style="-fx-background-color: #515B4A;" textFill="#eae0ff">
