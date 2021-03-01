@@ -31,8 +31,10 @@ public class Controller implements Initializable {
 
         newN = ((Button) e.getSource()).getText();
         oldN = screen2.getText();
-        screen2.setText(oldN + newN);
-
+        if ((newN.equals("0") || newN.equals("00")) && screen2.getText() == "")
+            screen2.setText("");
+        else
+            screen2.setText(oldN + newN);
     }
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
