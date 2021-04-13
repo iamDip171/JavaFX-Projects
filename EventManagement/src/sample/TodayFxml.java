@@ -31,13 +31,13 @@ public class TodayFxml extends LoginPageController implements Initializable {
     public TableColumn<ExamRoutine, String> examTimeCol;
 
     @FXML
-    public TableView<OthersClassController> tvOthers;
+    public TableView<OthersClass> tvOthers;
 
     @FXML
-    public TableColumn<OthersClassController, String> othersCol;
+    public TableColumn<OthersClass, String> othersCol;
 
     @FXML
-    public TableColumn<OthersClassController, String> othersTimeCol;
+    public TableColumn<OthersClass, String> othersTimeCol;
 
 
     @Override
@@ -77,6 +77,19 @@ public class TodayFxml extends LoginPageController implements Initializable {
             examCol.setCellValueFactory(new PropertyValueFactory<ExamRoutine, String>("subject"));
             examTimeCol.setCellValueFactory(new PropertyValueFactory<ExamRoutine, String>("time"));
             tvExams.setItems(list);
+
+            ObservableList<OthersClass> listO = FXCollections.observableArrayList() ;
+            while ((lineOthers = othersReader.readLine()) != null) {
+                String otherData[] = lineOthers.split("_") ;
+                if (otherData[1].equals(dateFormat.format(date))) {
+                    listO.add (new OthersClass(otherData[0], otherData[1], otherData[2])) ;
+                }
+            }
+
+            othersCol.setCellValueFactory(new PropertyValueFactory<OthersClass, String>("eventName"));
+            othersTimeCol.setCellValueFactory(new PropertyValueFactory<OthersClass, String>("eventTime"));
+            tvOthers.setItems(listO);
+
         }catch (Exception e) {}
     }
 
