@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="430.0" prefWidth="699.0" style="-fx-background-color: White;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TodayFxml">
+   <children>
+      <Label alignment="CENTER" layoutX="7.0" prefHeight="98.0" prefWidth="204.0" styleClass="labels" text="Classes" textFill="#fcfcfc" AnchorPane.bottomAnchor="328.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="488.0" AnchorPane.topAnchor="4.0">
+         <font>
+            <Font name="Berlin Sans FB" size="45.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="240.0" layoutY="4.0" prefHeight="51.0" prefWidth="448.0" styleClass="labels" text="Exams" textFill="WHITE" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="4.0">
+         <font>
+            <Font name="Berlin Sans FB" size="45.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="232.0" layoutY="215.0" prefHeight="51.0" prefWidth="448.0" styleClass="labels" text="Others" textFill="WHITE" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="215.0">
+         <font>
+            <Font name="Berlin Sans FB" size="45.0" />
+         </font>
+      </Label>
+      <VBox layoutX="11.0" layoutY="113.0" prefHeight="291.0" prefWidth="197.0" style="-fx-background-color: #F6E4A1;">
+         <children>
+            <ListView fx:id="classesLV" prefHeight="291.0" prefWidth="183.0" styleClass="listViewST">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets></ListView>
+         </children>
+      </VBox>
+      <AnchorPane layoutX="239.0" layoutY="63.0" prefHeight="145.0" prefWidth="448.0" AnchorPane.leftAnchor="239.0" AnchorPane.rightAnchor="12.0">
+         <children>
+            <TableView fx:id="tvExams" layoutX="5.0" layoutY="-2.0" prefHeight="145.0" prefWidth="439.0" styleClass="mainTV" AnchorPane.rightAnchor="4.0">
+              <columns>
+                <TableColumn fx:id="examCol" prefWidth="267.0" text="Subject" />
+                <TableColumn fx:id="examTimeCol" prefWidth="171.0" text="Time" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="240.0" layoutY="271.0" prefHeight="145.0" prefWidth="448.0" AnchorPane.leftAnchor="239.0" AnchorPane.rightAnchor="12.0">
+         <children>
+            <TableView fx:id="tvOthers" layoutX="5.0" prefHeight="145.0" prefWidth="439.0" styleClass="mainTV" AnchorPane.rightAnchor="4.0">
+               <columns>
+                  <TableColumn fx:id="othersCol" prefWidth="264.0" text="Event Name" />
+                  <TableColumn fx:id="othersTimeCol" prefWidth="174.0" text="Time" />
+               </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+      
+   </children>
+</AnchorPane>

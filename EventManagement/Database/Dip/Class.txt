@@ -1,0 +1,4 @@
+E.Circuit_11:40 AM - 1:10 PM_Saturday, Tuesday
+L.Algebra_08:30 AM - 10:00 AM_Saturday, Tuesday
+IPE_11:40 AM - 01:10 PM_Sunday, Wednesday
+OOP Lab_02:00 PM - 04:30 PM_Wednesday

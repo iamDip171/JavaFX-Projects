@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b191564-53fe-40e1-acc8-1207afbf5b49" name="Default Changelist" comment="" />
+    <list default="true" id="7b191564-53fe-40e1-acc8-1207afbf5b49" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/JavaFX_Projects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventManagement/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventManagement/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventManagement/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventManagement/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventManagement/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventManagement/.idea/libraries/TrayNoti.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventManagement/.idea/libraries/TrayTester.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventManagement/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventManagement/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventManagement/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventManagement/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventManagement/EventManagement.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1osEtnxn8RlI5ruE49oMh7RjYsN" />
   <component name="ProjectViewState">
@@ -15,10 +33,33 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/EventManagement" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <module name="JavaFX_Projects" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\javafx-sdk-15.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -28,7 +69,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614067116287</updated>
+      <workItem from="1616563303032" duration="1043000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

@@ -1,0 +1,175 @@
+.menuItems {
+    -fx-background-color: #efa62a;
+}
+
+.menuItems:hover {
+    -fx-background-color: #F0D56A;
+    -fx-border-color: WHITE;
+    -fx-border-width: 0px 0px 0px 5px;
+    -fx-text-fill: #877C50;
+    -fx-cursor: hand;
+}
+
+.menuItems:pressed {
+    -fx-background-color: WHITE;
+    -fx-text-fill: #F0D56A;
+}
+
+.labels {
+    -fx-background-color: #EFA62A;
+    -fx-background-radius: 20;
+}
+
+.listViewST {
+    -fx-background-color: WHITE;
+}
+.listViewST .list-cell {
+    -fx-alignment: CENTER;
+    -fx-font-family: "Berlin Sans FB";
+    -fx-font-size: 16pt;
+}
+
+.listViewST .list-cell:odd {
+    -fx-background-color: #FFF2E1;
+}
+
+.mainTV {
+    -fx-background-color: transparent;
+}
+
+.mainTV .column-header-background .filler {
+    -fx-background-color: transparent;
+}
+
+.mainTV .corner {
+    -fx-background-color: transparent;
+}
+
+.mainTV .column-header-background {
+    -fx-background-color: #EFA62A;
+    -fx-background-radius: 9px 9px 0px 0px;
+    -fx-padding: 0 0 3px 0;
+}
+
+.mainTV .column-header {
+    -fx-background-color: transparent;
+
+}
+
+.mainTV .column-header-background .label {
+    -fx-font-size: 12pt;
+    -fx-text-fill: white;
+}
+
+.mainTV .table-cell {
+    -fx-background-color: transparent;
+    /*-fx-padding: 2 0 2 0px;*/
+    -fx-border-color: transparent;
+    -fx-alignment: center;
+    -fx-font-size: 13pt;
+    -fx-font-family: "Berlin Sans FB";
+}
+
+.mainTV .table-row-cell:odd {
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+    -fx-background-color: #F2D1A6;
+}
+.mainTV .table-row-cell:even {
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.mainTV .scroll-bar:horizontal * {
+    -fx-min-width: 0;
+    -fx-pref-width: 0;
+    -fx-max-width: 0;
+
+    -fx-min-height: 0;
+    -fx-pref-height: 0;
+    -fx-max-height: 0;
+}
+
+.TVofOthers {
+    -fx-background-color: transparent;
+}
+
+.TVofOthers .column-header-background .filler {
+    -fx-background-color: transparent;
+}
+
+.TVofOthers .column-header-background {
+    -fx-background-color: #EFA62A;
+    -fx-background-radius: 15px 15px 15px 15px;
+    -fx-padding: 10px 0px 10px 0;
+}
+
+.TVofOthers .column-header {
+    -fx-background-color: transparent;
+}
+
+.TVofOthers .column-header-background .label {
+    -fx-text-fill: White;
+    -fx-font-family: "Berlin Sans FB";
+    -fx-font-size: 13pt;
+    -fx-alignment: center;
+}
+
+.TVofOthers .table-cell {
+    -fx-border-color: transparent;
+    -fx-alignment: center;
+    -fx-font-size: 13pt;
+    -fx-font-family: "Berlin Sans FB" ;
+    /*-fx-padding: 0px 0px 0px 20px;*/
+}
+
+.TVofOthers .table-row-cell:odd {
+    -fx-background-color: #FFF2E1;
+}
+
+.TVofOthers .scroll-bar:horizontal * {
+    -fx-min-width: 0;
+    -fx-pref-width: 0;
+    -fx-max-width: 0;
+
+    -fx-min-height: 0;
+    -fx-pref-height: 0;
+    -fx-max-height: 0;
+}
+
+.welcomeBtn {
+    -fx-background-color:  #28B4FA;
+    -fx-background-radius: 20;
+    -fx-font-size: 11pt;
+    -fx-font-family: "Berlin Sans FB";
+}
+
+.welcomeBtn:hover {
+    -fx-cursor: hand;
+    -fx-background-color: #FB7B0A ;
+}
+
+.signupExit {
+    -fx-background-color: #F8F1E1   ;
+    -fx-background-radius: 10;
+    -fx-text-fill: BLACK;
+}
+.signupExit:hover {
+    -fx-cursor: hand;
+    -fx-background-color: #D45D0B ;
+
+}
+
+.eventPageBtns {
+    -fx-background-color: #FA9017  ;
+    -fx-text-fill: WHITE;
+    -fx-font-size: 12pt;
+    -fx-font-family: "Berlin Sans FB";
+}
+
+.eventPageBtns:hover {
+    -fx-cursor: hand;
+    -fx-background-color: #FE5A02 ;
+}
+
+
