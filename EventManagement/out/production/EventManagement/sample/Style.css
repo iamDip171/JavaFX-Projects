@@ -172,4 +172,9 @@
     -fx-background-color: #FE5A02 ;
 }
 
+.menuItems:focused {
+    -fx-background-color: RED;
+}
+
+
 

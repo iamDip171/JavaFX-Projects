@@ -1,0 +1,3 @@
+English_12:00 PM - 01:00 PM_Sunday, Tuesday, Wednesdat
+Bangla_12:30 PM - 01:30 PM_Monday, Thursday
+Mathematics_11:30 AM - 01:00 PM_Tuesday
