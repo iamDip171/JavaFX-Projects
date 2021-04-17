@@ -167,11 +167,6 @@
     -fx-font-family: "Berlin Sans FB";
 }
 
-.eventPageBtns:hover {
-    -fx-cursor: hand;
-    -fx-background-color: #FE5A02 ;
-}
-
 
 
 
