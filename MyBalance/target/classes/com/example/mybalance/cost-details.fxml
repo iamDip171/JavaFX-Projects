@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="365.0" prefWidth="316.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mybalance.CostDetails">
+   <children>
+      <Label fx:id="dateLabel" alignment="CENTER" layoutY="-2.0" prefHeight="61.0" prefWidth="318.0" textFill="#599e5e">
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font>
+      </Label>
+      <ScrollPane layoutY="59.0" prefHeight="307.0" prefWidth="318.0" style="-fx-background-color: transparent;">
+         <content>
+            <VBox fx:id="costVbox" prefHeight="312.0" prefWidth="303.0" />
+         </content>
+      </ScrollPane>
+      <Label alignment="CENTER" layoutX="100.0" layoutY="14.0" prefHeight="37.0" prefWidth="119.0" text="COST">
+         <font>
+            <Font name="Courier New Bold" size="23.0" />
+         </font>
+      </Label>
+      <Separator layoutX="60.0" layoutY="50.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>

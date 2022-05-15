@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="explorePane" prefHeight="639.0" prefWidth="961.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.thunder_mediapp.AddMedicine">
+   <children>
+      <Label layoutY="-1.0" prefHeight="142.0" prefWidth="961.0" style="-fx-background-color: #2cacac;" />
+      <Label fx:id="nameLabel" layoutX="303.0" layoutY="35.0" prefHeight="35.0" prefWidth="301.0" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="adressLabel" layoutX="303.0" layoutY="70.0" prefHeight="42.0" prefWidth="358.0" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="15.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutY="141.0" prefHeight="515.0" prefWidth="961.0">
+         <children>
+            <Label alignment="CENTER" layoutX="16.0" layoutY="77.0" prefHeight="142.0" prefWidth="264.0" style="-fx-background-color: #2cacac; -fx-background-radius: 30;" />
+            <Label alignment="CENTER" layoutX="349.0" layoutY="82.0" prefHeight="142.0" prefWidth="264.0" style="-fx-background-color: #2cacac; -fx-background-radius: 30;" />
+            <Label alignment="CENTER" layoutX="683.0" layoutY="77.0" prefHeight="142.0" prefWidth="264.0" style="-fx-background-color: #2cacac; -fx-background-radius: 30;" />
+            <Label alignment="CENTER" layoutX="17.0" layoutY="287.0" prefHeight="142.0" prefWidth="264.0" style="-fx-background-color: #2cacac; -fx-background-radius: 30;" />
+            <Label alignment="CENTER" layoutX="349.0" layoutY="292.0" prefHeight="142.0" prefWidth="264.0" style="-fx-background-color: #2cacac; -fx-background-radius: 30;" />
+            <Label alignment="CENTER" layoutX="683.0" layoutY="287.0" prefHeight="142.0" prefWidth="264.0" style="-fx-background-color: #2cacac; -fx-background-radius: 30;" />
+            <ImageView fitHeight="106.0" fitWidth="98.0" layoutX="99.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@drops.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="84.0" fitWidth="149.0" layoutX="436.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@inhaler.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="84.0" fitWidth="149.0" layoutX="773.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@cap.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="84.0" fitWidth="149.0" layoutX="106.0" layoutY="292.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@tablet.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="98.0" fitWidth="98.0" layoutX="430.0" layoutY="293.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@injection.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="84.0" fitWidth="97.0" layoutX="782.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@syrup.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="106.0" layoutY="175.0" prefHeight="26.0" prefWidth="84.0" style="-fx-border-color: white;" text="Drops" textFill="WHITE">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="22.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="431.0" layoutY="180.0" prefHeight="27.0" prefWidth="98.0" style="-fx-border-color: white;" text="Inhalers" textFill="WHITE">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="22.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="763.0" layoutY="175.0" prefHeight="27.0" prefWidth="105.0" style="-fx-border-color: white;" text="Capsules" textFill="WHITE">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="22.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="99.0" layoutY="389.0" prefHeight="27.0" prefWidth="98.0" style="-fx-border-color: white;" text="Tablets" textFill="WHITE">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="22.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="422.0" layoutY="392.0" prefHeight="27.0" prefWidth="118.0" style="-fx-border-color: white;" text="Injections" textFill="WHITE">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="22.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="765.0" layoutY="389.0" prefHeight="27.0" prefWidth="118.0" style="-fx-border-color: white;" text="Liquids" textFill="WHITE">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="9.0" prefHeight="35.0" prefWidth="223.0" text="Choose a catagory:" textFill="#2cacac">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="20.0" />
+               </font>
+            </Label>
+            <Separator layoutX="25.0" layoutY="45.0" prefHeight="5.0" prefWidth="223.0" style="-fx-background-color: #2cacac;" />
+            <Button layoutX="16.0" layoutY="233.0" mnemonicParsing="false" onAction="#addDrops" prefHeight="44.0" prefWidth="264.0" style="-fx-background-color: #2cacac; -fx-background-radius: 30;" text="Add" textFill="WHITE">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="349.0" layoutY="236.0" mnemonicParsing="false" onAction="#addInhalers" prefHeight="44.0" prefWidth="264.0" style="-fx-background-color: #2cacac; -fx-background-radius: 30;" text="Add" textFill="WHITE">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="684.0" layoutY="233.0" mnemonicParsing="false" onAction="#addCaps" prefHeight="44.0" prefWidth="264.0" style="-fx-background-color: #2cacac; -fx-background-radius: 30;" text="Add" textFill="WHITE">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="18.0" layoutY="444.0" mnemonicParsing="false" onAction="#addTablets" prefHeight="44.0" prefWidth="264.0" style="-fx-background-color: #2cacac; -fx-background-radius: 30;" text="Add" textFill="WHITE">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="349.0" layoutY="449.0" mnemonicParsing="false" onAction="#addInjection" prefHeight="44.0" prefWidth="264.0" style="-fx-background-color: #2cacac; -fx-background-radius: 30;" text="Add" textFill="WHITE">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="683.0" layoutY="444.0" mnemonicParsing="false" onAction="#addLiquids" prefHeight="44.0" prefWidth="264.0" style="-fx-background-color: #2cacac; -fx-background-radius: 30;" text="Add" textFill="WHITE">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="744.0" layoutY="14.0" mnemonicParsing="false" onAction="#back_dashboard" prefHeight="44.0" prefWidth="204.0" style="-fx-background-color: #2cacac; -fx-background-radius: 10;" text="Back to Dashboard" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="107.0" layoutY="5.0" prefHeight="133.0" prefWidth="168.0" style="-fx-border-color: white; -fx-border-width: 3; -fx-border-radius: 30;" />
+      <ImageView fitHeight="133.0" fitWidth="138.0" layoutX="126.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@avatar.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="userPane" prefHeight="562.0" prefWidth="578.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.thunder_mediapp.UserSignup">
+   <children>
+      <TextField fx:id="user_fName" layoutX="40.0" layoutY="201.0" prefHeight="40.0" prefWidth="236.0" promptText="First Name">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="183.0" layoutY="92.0" prefHeight="57.0" prefWidth="212.0" text="SIGN UP" textFill="#2cacac">
+         <font>
+            <Font name="Arial Bold" size="49.0" />
+         </font>
+      </Label>
+      <TextField fx:id="user_lName" layoutX="303.0" layoutY="201.0" prefHeight="31.0" prefWidth="236.0" promptText="Last Name">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextField>
+      <Button layoutX="183.0" layoutY="420.0" mnemonicParsing="false" onAction="#signUPpressed" prefHeight="40.0" prefWidth="212.0" style="-fx-background-color: #2cacac; -fx-background-radius: 20;" text="REGISTER" textFill="#f5f5f5">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <TextField fx:id="userPass" layoutX="40.0" layoutY="336.0" prefHeight="40.0" prefWidth="236.0" promptText="Password">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextField>
+      <ComboBox fx:id="comboBox" layoutX="303.0" layoutY="336.0" prefHeight="40.0" prefWidth="236.0" promptText="Select your Area" style="-fx-background-color: #2cacac;" visibleRowCount="8" />
+      <TextField fx:id="userAddress" layoutX="303.0" layoutY="268.0" prefHeight="31.0" prefWidth="236.0" promptText="User Address">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="username" layoutX="40.0" layoutY="268.0" prefHeight="31.0" prefWidth="236.0" promptText="Username">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="183.0" layoutY="501.0" prefHeight="17.0" prefWidth="212.0" text="Duplicate username found!" textFill="#f20b0b">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

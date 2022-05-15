@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="35.0" prefWidth="312.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mybalance.CostDetailsNode">
+   <children>
+      <Label fx:id="nameLabel" layoutX="14.0" layoutY="2.0" prefHeight="35.0" prefWidth="170.0">
+         <font>
+            <Font name="Consolas Bold" size="16.0" />
+         </font>
+      </Label>
+      <Separator layoutX="192.0" layoutY="5.0" orientation="VERTICAL" prefHeight="28.0" prefWidth="5.0" />
+      <Label fx:id="amountLabel" alignment="CENTER" layoutX="240.0" layoutY="1.0" maxWidth="56.0" prefHeight="35.0" prefWidth="56.0">
+         <font>
+            <Font name="Consolas Bold" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

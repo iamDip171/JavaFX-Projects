@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="adminLogin" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="639.0" prefWidth="598.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.thunder_mediapp.AdminLogin">
+   <children>
+      <TextField fx:id="adminName" layoutX="120.0" layoutY="247.0" prefHeight="49.0" prefWidth="358.0" promptText="Admin User ID">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <TextField fx:id="adminPass" layoutX="120.0" layoutY="334.0" prefHeight="49.0" prefWidth="358.0" promptText="Password">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <Button layoutX="312.0" layoutY="426.0" mnemonicParsing="false" onAction="#adminLogin" prefHeight="52.0" prefWidth="166.0" style="-fx-background-color: #2cacac;" text="LOGIN" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="21.0" />
+         </font>
+      </Button>
+      <Button layoutX="120.0" layoutY="426.0" mnemonicParsing="false" onAction="#adminSignUP" prefHeight="52.0" prefWidth="166.0" style="-fx-background-color: #2cacac;" text="SIGN UP" textFill="WHITE">
+         <font>
+            <Font name="Forte" size="21.0" />
+         </font>
+      </Button>
+      <Button layoutX="416.0" layoutY="567.0" mnemonicParsing="false" onAction="#backBtn" prefHeight="43.0" prefWidth="153.0" style="-fx-background-color: #FFF; -fx-background-radius: 50; -fx-border-color: #2cacac; -fx-border-radius: 50;" text="BACK" textFill="#2cacac">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Button>
+      <Label fx:id="label" alignment="CENTER" layoutX="159.0" layoutY="149.0" prefHeight="54.0" prefWidth="280.0" text="ADMIN LOGIN " textFill="#2cacac">
+         <font>
+            <Font name="Arial Bold" size="40.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

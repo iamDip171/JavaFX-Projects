@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="showedPane" prefHeight="639.0" prefWidth="961.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.thunder_mediapp.PendingOrders">
+   <children>
+      <Label layoutY="-1.0" prefHeight="154.0" prefWidth="961.0" style="-fx-background-color: #2cacac;" />
+      <Label layoutX="102.0" layoutY="5.0" prefHeight="133.0" prefWidth="168.0" style="-fx-border-color: white; -fx-border-width: 3; -fx-border-radius: 30;" />
+      <ImageView fitHeight="133.0" fitWidth="138.0" layoutX="121.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@avatar.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="nameLabel" layoutX="303.0" layoutY="35.0" prefHeight="35.0" prefWidth="301.0" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="adressLabel" layoutX="303.0" layoutY="70.0" prefHeight="42.0" prefWidth="358.0" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="15.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="-1.0" layoutY="159.0" prefHeight="489.0" prefWidth="961.0">
+         <children>
+            <ScrollPane layoutX="22.0" layoutY="67.0" prefHeight="408.0" prefWidth="917.0" style="-fx-background-color: #2cacac;">
+               <content>
+                  <VBox fx:id="vboxPane" prefHeight="408.0" prefWidth="900.0" style="-fx-background-color: #2cacac;">
+                     <opaqueInsets>
+                        <Insets bottom="10.0" top="10.0" />
+                     </opaqueInsets>
+                  </VBox>
+               </content>
+            </ScrollPane>
+            <Label alignment="CENTER" layoutX="22.0" layoutY="10.0" prefHeight="48.0" prefWidth="279.0" style="-fx-border-color: #2cacac; -fx-border-width: 3; -fx-border-radius: 20;" text="Pending Orders" textFill="#2cacac">
+               <font>
+                  <Font name="Gabriola" size="33.0" />
+               </font>
+            </Label>
+            <Button layoutX="746.0" layoutY="13.0" mnemonicParsing="false" onAction="#backToDash" prefHeight="42.0" prefWidth="193.0" style="-fx-background-color: #2cacac;" text="Back to Dashboard" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
